@@ -1,4 +1,4 @@
-class Area {
+class AreaMain {
     int length;
     int breadth;
 
@@ -7,7 +7,7 @@ class Area {
     }
 }
 
-public class Main {
+public class Area {
     public static void main(String[] args) {
         Area r1 = new Area();
         Area r2 = new Area();
@@ -22,3 +22,4 @@ public class Main {
         System.out.println("Area of r2 = " + r2.area());
     }
 }
+
