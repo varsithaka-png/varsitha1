@@ -1,14 +1,14 @@
-class AreaMain {
+public class Area {
+
     int length;
     int breadth;
 
     int area() {
         return length * breadth;
     }
-}
 
-public class Area {
     public static void main(String[] args) {
+
         Area r1 = new Area();
         Area r2 = new Area();
 
@@ -22,4 +22,3 @@ public class Area {
         System.out.println("Area of r2 = " + r2.area());
     }
 }
-
